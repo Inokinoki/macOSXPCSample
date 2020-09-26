@@ -4,7 +4,7 @@ The word `embedded` means that the XPC service will be included in the `.app` bu
 
 ## Objective-C
 
-- [XPCCallerUIOBC](XPCCallerUIOBC) is a demo in full Objective-C, with a XPC caller (client) GUI program and an embedded XPC callee (server).
+[XPCCallerUIOBC](XPCCallerUIOBC) is a demo in full Objective-C, with a XPC caller (client) GUI program and an embedded XPC callee (server).
 
 ## Swift
 
