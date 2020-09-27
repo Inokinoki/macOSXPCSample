@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+  <string>cc.inoki.SimpleCXPC</string>
+  <key>Program</key>
+  <string><replace-to-your-path>/MachC/build/simple_c_xpc_callee</string>
+    <key>MachServices</key>
+    <dict>
+        <key>cc.inoki.SimpleCXPC</key>
+        <true/>
+    </dict>
+</dict>
+</plist>
+

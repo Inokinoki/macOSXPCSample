@@ -34,8 +34,13 @@ Mach means that the call is through launchd, with MIG mechanism.
 
 [MachSwift](MachSwift) is a demo in full Swift, with a XPC caller program and an external XPC callee based on launchd and Mach MIG.
 
+## C API
+
+[MachC](MachC) is a demo in Objective-C/C, with a XPC caller program and an external XPC callee based on launchd and Mach MIG.
+
+It does not work well - the received Mach message seems to be corrupted. Need fix...
+
 TODO:
 
 - Mach call from Objective-C to Objective-C
 - Mach call between Swift and Objective-C
-- C API
