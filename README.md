@@ -26,7 +26,7 @@ TODO:
 
 [XPCCallerCAPI](XPCCallerCAPI) is a demo in Objective-C, the XPC is implemented with the system C API.
 
-# [WIP] XPC demo application on macOS - Mach
+# XPC demo application on macOS - Mach
 
 Mach means that the call is through launchd, with MIG mechanism.
 
