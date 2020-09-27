@@ -28,9 +28,14 @@ TODO:
 
 # [WIP] XPC demo application on macOS - Mach
 
+Mach means that the call is through launchd, with MIG mechanism.
+
+## Swift
+
+[MachSwift](MachSwift) is a demo in full Swift, with a XPC caller program and an external XPC callee based on launchd and Mach MIG.
+
 TODO:
 
-- Mach call from Swift to Swift
 - Mach call from Objective-C to Objective-C
 - Mach call between Swift and Objective-C
 - C API
