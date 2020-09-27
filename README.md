@@ -14,17 +14,17 @@ It's directly called UI Test, because Swift is more widely used at this era :)
 
 ## [WIP] Hybrid
 
-[XPCCallerSwift](XPCCallerSwift) is a demo which does not work at the moment.
+[XPCCallerSwift](XPCCallerSwift) is a demo which does not work at the moment. This is a demo where a Swift cli calls XPC on a XPC Service.
 
 At least I can confirm that, a cli program cannot embed a XPC service thus cannot call one.
-
-## C API
-
-[XPCCallerCAPI](XPCCallerCAPI) is a demo in Objective-C, the XPC is implemented with the system C API.
 
 TODO:
 
 - validate whether Swift and Objective-C XPC can call each other. I've ever met a reply data corruption, probably due to the different signature in Swift and Objective-C.
+
+## C API
+
+[XPCCallerCAPI](XPCCallerCAPI) is a demo in Objective-C, the XPC is implemented with the system C API.
 
 # [WIP] XPC demo application on macOS - Mach
 
