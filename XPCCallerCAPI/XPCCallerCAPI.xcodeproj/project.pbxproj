@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		140E6CEA252073B200384E6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 140E6CE9252073B200384E6C /* AppDelegate.m */; };
+		140E6CEC252073B500384E6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 140E6CEB252073B500384E6C /* Assets.xcassets */; };
+		140E6CEF252073B500384E6C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 140E6CED252073B500384E6C /* MainMenu.xib */; };
+		140E6CF2252073B500384E6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 140E6CF1252073B500384E6C /* main.m */; };
+		140E6D062520740800384E6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 140E6D052520740800384E6C /* main.m */; };
+		140E6D0A2520740800384E6C /* XPCCalleeCAPI.xpc in Embed XPC Services */ = {isa = PBXBuildFile; fileRef = 140E6CFF2520740800384E6C /* XPCCalleeCAPI.xpc */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		140E6D132520766000384E6C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 140E6D122520766000384E6C /* SystemConfiguration.framework */; };
+		140E6D142520766A00384E6C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 140E6D122520766000384E6C /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		140E6D082520740800384E6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 140E6CDD252073B200384E6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 140E6CFE2520740800384E6C;
+			remoteInfo = XPCCalleeCAPI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		140E6D0E2520740800384E6C /* Embed XPC Services */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/XPCServices";
+			dstSubfolderSpec = 16;
+			files = (
+				140E6D0A2520740800384E6C /* XPCCalleeCAPI.xpc in Embed XPC Services */,
+			);
+			name = "Embed XPC Services";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		140E6CE5252073B200384E6C /* XPCCallerCAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XPCCallerCAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		140E6CE8252073B200384E6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		140E6CE9252073B200384E6C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		140E6CEB252073B500384E6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		140E6CEE252073B500384E6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		140E6CF0252073B500384E6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		140E6CF1252073B500384E6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		140E6CF3252073B500384E6C /* XPCCallerCAPI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XPCCallerCAPI.entitlements; sourceTree = "<group>"; };
+		140E6CFA252073E900384E6C /* libxpc.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxpc.tbd; path = usr/lib/system/libxpc.tbd; sourceTree = SDKROOT; };
+		140E6CFF2520740800384E6C /* XPCCalleeCAPI.xpc */ = {isa = PBXFileReference; explicitFileType = "wrapper.xpc-service"; includeInIndex = 0; path = XPCCalleeCAPI.xpc; sourceTree = BUILT_PRODUCTS_DIR; };
+		140E6D052520740800384E6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		140E6D072520740800384E6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		140E6D11252075DE00384E6C /* libSystem.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libSystem.tbd; path = usr/lib/libSystem.tbd; sourceTree = SDKROOT; };
+		140E6D122520766000384E6C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		140E6CE2252073B200384E6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				140E6D132520766000384E6C /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		140E6CFC2520740800384E6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				140E6D142520766A00384E6C /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		140E6CDC252073B200384E6C = {
+			isa = PBXGroup;
+			children = (
+				140E6CE7252073B200384E6C /* XPCCallerCAPI */,
+				140E6D002520740800384E6C /* XPCCalleeCAPI */,
+				140E6CE6252073B200384E6C /* Products */,
+				140E6CF9252073E900384E6C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		140E6CE6252073B200384E6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				140E6CE5252073B200384E6C /* XPCCallerCAPI.app */,
+				140E6CFF2520740800384E6C /* XPCCalleeCAPI.xpc */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		140E6CE7252073B200384E6C /* XPCCallerCAPI */ = {
+			isa = PBXGroup;
+			children = (
+				140E6CE8252073B200384E6C /* AppDelegate.h */,
+				140E6CE9252073B200384E6C /* AppDelegate.m */,
+				140E6CEB252073B500384E6C /* Assets.xcassets */,
+				140E6CED252073B500384E6C /* MainMenu.xib */,
+				140E6CF0252073B500384E6C /* Info.plist */,
+				140E6CF1252073B500384E6C /* main.m */,
+				140E6CF3252073B500384E6C /* XPCCallerCAPI.entitlements */,
+			);
+			path = XPCCallerCAPI;
+			sourceTree = "<group>";
+		};
+		140E6CF9252073E900384E6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				140E6D122520766000384E6C /* SystemConfiguration.framework */,
+				140E6D11252075DE00384E6C /* libSystem.tbd */,
+				140E6CFA252073E900384E6C /* libxpc.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		140E6D002520740800384E6C /* XPCCalleeCAPI */ = {
+			isa = PBXGroup;
+			children = (
+				140E6D052520740800384E6C /* main.m */,
+				140E6D072520740800384E6C /* Info.plist */,
+			);
+			path = XPCCalleeCAPI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		140E6CE4252073B200384E6C /* XPCCallerCAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 140E6CF6252073B500384E6C /* Build configuration list for PBXNativeTarget "XPCCallerCAPI" */;
+			buildPhases = (
+				140E6CE1252073B200384E6C /* Sources */,
+				140E6CE2252073B200384E6C /* Frameworks */,
+				140E6CE3252073B200384E6C /* Resources */,
+				140E6D0E2520740800384E6C /* Embed XPC Services */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				140E6D092520740800384E6C /* PBXTargetDependency */,
+			);
+			name = XPCCallerCAPI;
+			productName = XPCCallerCAPI;
+			productReference = 140E6CE5252073B200384E6C /* XPCCallerCAPI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		140E6CFE2520740800384E6C /* XPCCalleeCAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 140E6D0B2520740800384E6C /* Build configuration list for PBXNativeTarget "XPCCalleeCAPI" */;
+			buildPhases = (
+				140E6CFB2520740800384E6C /* Sources */,
+				140E6CFC2520740800384E6C /* Frameworks */,
+				140E6CFD2520740800384E6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XPCCalleeCAPI;
+			productName = XPCCalleeCAPI;
+			productReference = 140E6CFF2520740800384E6C /* XPCCalleeCAPI.xpc */;
+			productType = "com.apple.product-type.xpc-service";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		140E6CDD252073B200384E6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Inoki Test";
+				TargetAttributes = {
+					140E6CE4252073B200384E6C = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					140E6CFE2520740800384E6C = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 140E6CE0252073B200384E6C /* Build configuration list for PBXProject "XPCCallerCAPI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 140E6CDC252073B200384E6C;
+			productRefGroup = 140E6CE6252073B200384E6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				140E6CE4252073B200384E6C /* XPCCallerCAPI */,
+				140E6CFE2520740800384E6C /* XPCCalleeCAPI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		140E6CE3252073B200384E6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				140E6CEC252073B500384E6C /* Assets.xcassets in Resources */,
+				140E6CEF252073B500384E6C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		140E6CFD2520740800384E6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		140E6CE1252073B200384E6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				140E6CF2252073B500384E6C /* main.m in Sources */,
+				140E6CEA252073B200384E6C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		140E6CFB2520740800384E6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				140E6D062520740800384E6C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		140E6D092520740800384E6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 140E6CFE2520740800384E6C /* XPCCalleeCAPI */;
+			targetProxy = 140E6D082520740800384E6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		140E6CED252073B500384E6C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				140E6CEE252073B500384E6C /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		140E6CF4252073B500384E6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		140E6CF5252073B500384E6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		140E6CF7252073B500384E6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = XPCCallerCAPI/XPCCallerCAPI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GMJNW6P6DV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = XPCCallerCAPI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cc.inoki.XPCCallerCAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		140E6CF8252073B500384E6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = XPCCallerCAPI/XPCCallerCAPI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GMJNW6P6DV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = XPCCallerCAPI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cc.inoki.XPCCallerCAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		140E6D0C2520740800384E6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GMJNW6P6DV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = XPCCalleeCAPI/Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cc.inoki.XPCCalleeCAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		140E6D0D2520740800384E6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GMJNW6P6DV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = XPCCalleeCAPI/Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cc.inoki.XPCCalleeCAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		140E6CE0252073B200384E6C /* Build configuration list for PBXProject "XPCCallerCAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				140E6CF4252073B500384E6C /* Debug */,
+				140E6CF5252073B500384E6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		140E6CF6252073B500384E6C /* Build configuration list for PBXNativeTarget "XPCCallerCAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				140E6CF7252073B500384E6C /* Debug */,
+				140E6CF8252073B500384E6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		140E6D0B2520740800384E6C /* Build configuration list for PBXNativeTarget "XPCCalleeCAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				140E6D0C2520740800384E6C /* Debug */,
+				140E6D0D2520740800384E6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 140E6CDD252073B200384E6C /* Project object */;
+}
