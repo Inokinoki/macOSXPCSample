@@ -1,0 +1,7 @@
+subsystem add 0;
+
+#include <mach/std_types.defs>
+
+routine add2nums(server: mach_port_t; a: int; b: int; out c: int);
+routine add3nums(server: mach_port_t; a: int; b: int; c: int; out d: int);
+
